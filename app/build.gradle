@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+apply plugin: 'io.fabric'
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "com.bstar.powerdata"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 2
+        versionName "1.2"
+    }
+
+    allprojects {
+        repositories {
+            maven { url "https://jitpack.io" }
+            maven { url 'https://maven.fabric.io/public' }
+        }
+    }
+
+//    signingConfigs {
+//        debug {
+//            storeFile file("${System.env.HOME}/.android/debug.keystore")
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.debug
+        }
+        debug {
+            testCoverageEnabled = false
+        }
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile project(':android_kit')
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.twilio:voice-android:2.0.0-beta3'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:support-annotations:24.1.1'
+    compile "com.google.android.gms:play-services-gcm:9.4.0"
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.koushikdutta.ion:ion:2.1.8'
+    compile 'com.jakewharton:butterknife:8.1.0'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
+    compile 'com.android.support:recyclerview-v7:24.1.1'
+    provided 'org.projectlombok:lombok:1.16.6'
+    apt "org.projectlombok:lombok:1.16.6"
+    compile 'com.google.code.gson:gson:2.3'
+    compile 'com.android.support:cardview-v7:24.1.1'
+    compile 'com.bignerdranch.android:expandablerecyclerview:3.0.0-RC1'
+    compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
+        transitive = true;
+    }
+
+}
+
+apply plugin: 'com.google.gms.google-services'

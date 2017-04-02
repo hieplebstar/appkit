@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_incoming_caller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:textAppearance="@style/Droid.TextAppearance.LargeGreen" />
+
+    <TextView
+        android:id="@+id/textview_incoming_caller_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_incoming_caller_name"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/Droid.TextAppearance.LargeGreen" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_incoming_caller_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:text="@string/calling"
+        android:textAppearance="@style/Droid.TextAppearance.MediumGreen" />
+
+    <ImageView
+        android:id="@+id/imageview_incoming_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/Android_Design_rhythmThird"
+        android:src="@drawable/ic_button_call" />
+
+    <ImageView
+        android:id="@+id/imageview_incoming_reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageview_incoming_answer"
+        android:padding="@dimen/Android_Design_rhythmThird"
+        android:src="@drawable/ic_end_call" />
+
+</RelativeLayout>

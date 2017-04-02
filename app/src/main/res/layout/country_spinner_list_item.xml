@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/Android_Design_rhythmSixth"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageview_country_list_item_flag"
+            android:layout_width="@dimen/Android_Design_rhythmHalf"
+            android:layout_height="@dimen/Android_Design_rhythmHalf"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/Android_Design_rhythmTwelfth"/>
+
+        <TextView
+            android:id="@+id/textview_country_list_item_calling_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/Droid.TextAppearance.MediumGreen" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_country_list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/Android_Design_rhythmTwelfth"
+        android:layout_marginLeft="@dimen/Android_Design_rhythmTwelfth"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAppearance="@style/Droid.TextAppearance.MicroBlack" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/List_dividerHeight"
+        android:layout_marginLeft="@dimen/Android_Design_rhythmTwelfth"
+        android:layout_marginRight="@dimen/Android_Design_rhythmTwelfth"
+        android:background="@color/Design_grey_divider" />
+</LinearLayout>
+
+

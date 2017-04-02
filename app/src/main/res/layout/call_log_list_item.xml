@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Design_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_call_log_item_avatar"
+            android:layout_width="@dimen/Android_Design_rhythm"
+            android:layout_height="@dimen/Android_Design_rhythm"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/Android_Design_rhythmSixth"
+            android:background="@drawable/button_grey_rounded_all"
+            android:gravity="center"
+            android:textAppearance="@style/Droid.TextAppearance.LargeBlack" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/Android_Design_rhythmSixth"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textview_call_log_item_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/imageview_call_log_item_type"
+                    android:textAppearance="@style/Droid.TextAppearance.MediumBlack" />
+
+                <ImageView
+                    android:id="@+id/imageview_call_log_item_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_miss_cal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textview_call_log_item_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/Android_Design_rhythmSixth"
+                    android:layout_toLeftOf="@+id/textview_call_log_item_time"
+                    android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                <TextView
+                    android:id="@+id/textview_call_log_item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageview_call_log_item_indicator"
+                    android:layout_width="@dimen/Android_Design_rhythmTwelfth"
+                    android:layout_height="@dimen/Android_Design_rhythmTwelfth"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/button_green_rounded_all" />
+
+                <TextView
+                    android:id="@+id/textview_call_log_item_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Android_Design_rhythmTwelfth"
+                    android:layout_marginRight="@dimen/Android_Design_rhythmSixth"
+                    android:layout_toLeftOf="@+id/textview_call_log_item_duration"
+                    android:layout_toRightOf="@+id/imageview_call_log_item_indicator"
+                    android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+
+                <TextView
+                    android:id="@+id/textview_call_log_item_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textAppearance="@style/Droid.TextAppearance.MicroGreen" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/List_dividerHeight"
+        android:layout_marginLeft="@dimen/Android_Design_rhythmSixth"
+        android:layout_marginRight="@dimen/Android_Design_rhythmSixth"
+        android:background="@color/Design_grey_divider" />
+</LinearLayout>
+
+

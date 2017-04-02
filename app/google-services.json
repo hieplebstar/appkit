@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "259657975978",
+    "project_id": "firebase-powerdata"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259657975978:android:60c87d452e77878f",
+        "android_client_info": {
+          "package_name": "com.bstar.powerdata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc-xOUXjIhvbXu_13QzhquM2ygcTIZ9ns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

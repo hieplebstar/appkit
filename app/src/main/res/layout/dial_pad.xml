@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_1"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_2"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/abc"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_3"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/def"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_4"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/ghi"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_5"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/jkl"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_6"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/mno"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_7"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/pqrs"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_8"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tuv"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_9"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/wxyz"
+                android:textAppearance="@style/Droid.TextAppearance.MicroGrey" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_star"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/star"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGrey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/number_0"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGreen" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_dial_pad_pound"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/pound"
+                android:textAppearance="@style/Droid.TextAppearance.ExtraLargeGrey" />
+        </LinearLayout>
+
+
+    </TableRow>
+
+</TableLayout>

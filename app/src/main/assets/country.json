@@ -1,0 +1,226 @@
+[{
+  "country": "US United States",
+  "country_code": "US",
+  "code": "+1",
+  "icon": "USA.png"
+},{
+  "country": "Australia",
+  "country_code": "AU",
+  "code": "+61",
+  "icon": "Australia.png"
+},{
+  "country": "Austria",
+  "country_code": "AT",
+  "code": "+43",
+  "icon": "Austria.png"
+},{
+  "country": "Belgium",
+  "country_code": "BE",
+  "code": "+32",
+  "icon": "Belgium.png"
+},{
+  "country": "Brazil",
+  "country_code": "BR",
+  "code": "+55",
+  "icon": "Brazil.png"
+},{
+  "country": "Bulgaria",
+  "country_code": "BG",
+  "code": "+359",
+  "icon": "Bulgaria.png"
+},{
+  "country": "Canada",
+  "country_code": "CA",
+  "code": "+1",
+  "icon": "Canada.png"
+},{
+  "country": "Chile",
+  "country_code": "CL",
+  "code": "+56",
+  "icon": "Chile.png"
+},{
+  "country": "Cyprus",
+  "country_code": "CY",
+  "code": "+357",
+  "icon": "Cyprus.png"
+},{
+  "country": "Czech Republic",
+  "country_code": "CZ",
+  "code": "+420",
+  "icon": "Czech-Republic.png"
+},{
+  "country": "Denmark",
+  "country_code": "DK",
+  "code": "+45",
+  "icon": "Denmark.png"
+},{
+  "country": "Dominican Republic",
+  "country_code": "DO",
+  "code": "+1829",
+  "icon": "Dominican-republic.png"
+},{
+  "country": "El Salvador",
+  "country_code": "SV",
+  "code": "+503",
+  "icon": "El-salvador.png"
+},{
+  "country": "Estonia",
+  "country_code": "EE",
+  "code": "+372",
+  "icon": "Estonia.png"
+},{
+  "country": "Finland",
+  "country_code": "FI",
+  "code": "+358",
+  "icon": "Finland.png"
+},{
+  "country": "France",
+  "country_code": "FR",
+  "code": "+33",
+  "icon": "France.png"
+},{
+  "country": "Germany",
+  "country_code": "GR",
+  "code": "+49",
+  "icon": "Germany.png"
+},{
+  "country": "Greece",
+  "country_code": "GR",
+  "code": "+30",
+  "icon": "greece.png"
+},{
+  "country": "Hong Kong",
+  "country_code": "HK",
+  "code": "+852",
+  "icon": "Hong-kong.png"
+},{
+  "country": "Hungary",
+  "country_code": "HU",
+  "code": "+36",
+  "icon": "Hungary.png"
+},{
+  "country": "Indonesia",
+  "country_code": "ID",
+  "code": "+62",
+  "icon": "Indonesia.png"
+},{
+  "country": "Ireland",
+  "country_code": "IE",
+  "code": "+353",
+  "icon": "Ireland.png"
+},{
+  "country": "Israel",
+  "country_code": "IL",
+  "code": "+972",
+  "icon": "Israel.png"
+},{
+  "country": "Italy",
+  "country_code": "AU",
+  "code": "+39",
+  "icon": "Italy.png"
+},{
+  "country": "Japan",
+  "country_code": "AU",
+  "code": "+81",
+  "icon": "Japan.png"
+},{
+  "country": "Latvia",
+  "country_code": "LV",
+  "code": "+371",
+  "icon": "Latvia.png"
+},{
+  "country": "Lithuania",
+  "country_code": "LT",
+  "code": "+370",
+  "icon": "Lithuania.png"
+},{
+  "country": "Luxembourg",
+  "country_code": "AU",
+  "code": "+352",
+  "icon": "Luxembourg.png"
+},{
+  "country": "Malta",
+  "country_code": "MT",
+  "code": "+356",
+  "icon": "Malta.png"
+},{
+  "country": "Mexico",
+  "country_code": "MX",
+  "code": "+52",
+  "icon": "Mexico.png"
+},{
+  "country": "Netherlands",
+  "country_code": "NL",
+  "code": "+31",
+  "icon": "Netherlands.png"
+},{
+  "country": "New Zealand",
+  "country_code": "NZ",
+  "code": "+64",
+  "icon": "New-Zealand.png"
+},{
+  "country": "Norway",
+  "country_code": "NO",
+  "code": "+47",
+  "icon": "Norway.png"
+},{
+  "country": "Peru",
+  "country_code": "PE",
+  "code": "+51",
+  "icon": "Peru.png"
+},{
+  "country": "Poland",
+  "country_code": "PL",
+  "code": "+48",
+  "icon": "Poland.png"
+},{
+  "country": "Portugal",
+  "country_code": "PT",
+  "code": "+351",
+  "icon": "Portugal.png"
+},{
+  "country": "Puerto Rico",
+  "country_code": "PR",
+  "code": "+1",
+  "icon": "Puerto-rico.png"
+},{
+  "country": "Romania",
+  "country_code": "RO",
+  "code": "+40",
+  "icon": "Romania.png"
+},{
+  "country": "Singapore",
+  "country_code": "SG",
+  "code": "+65",
+  "icon": "Singapore.png"
+},{
+  "country": "Slovakia",
+  "country_code": "SK",
+  "code": "+421",
+  "icon": "Slovakia.png"
+},{
+  "country": "South Africa",
+  "country_code": "ZA",
+  "code": "+27",
+  "icon": "South-africa.png"
+},{
+  "country": "Spain",
+  "country_code": "ES",
+  "code": "+34",
+  "icon": "Spain.png"
+},{
+  "country": "Sweden",
+  "country_code": "SE",
+  "code": "+46",
+  "icon": "Sweden.png"
+},{
+  "country": "Switzerland",
+  "country_code": "CH",
+  "code": "+41",
+  "icon": "Switzerland.png"
+},{
+  "country": "United Kingdom",
+  "country_code": "UK",
+  "code": "+44",
+  "icon": "United-kingdom.png"
+}]

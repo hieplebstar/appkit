@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Design_white"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="@dimen/Android_Design_rhythmTwoAndAHalf"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/Android_Design_rhythmThird"
+        android:checkedButton="@+id/radio_trade_type"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radiobutton_call_log_type_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/List_dividerHeight"
+            android:layout_marginLeft="@dimen/List_dividerHeight"
+            android:layout_marginTop="@dimen/List_dividerHeight"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_button_left"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="@dimen/Android_Design_rhythmTwelfth"
+            android:text="@string/all"
+            android:textColor="@color/Design_white" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_call_log_type_missed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/List_dividerHeight"
+            android:layout_marginRight="@dimen/List_dividerHeight"
+            android:layout_marginTop="@dimen/List_dividerHeight"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_button_right"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/Android_Design_rhythmTwelfth"
+            android:text="@string/missed"
+            android:textColor="@color/Design_green" />
+
+    </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/progressbar_call_log"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_call_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

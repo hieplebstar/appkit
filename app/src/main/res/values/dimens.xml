@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="Android_Design_rhythmThree">144dp</dimen>
+    <dimen name="Android_Design_rhythmTwoAndAHalf">120dp</dimen>
+    <dimen name="Android_Design_rhythmDouble">96dp</dimen>
+    <dimen name="Android_Design_rhythmOneAndAHalf">72dp</dimen>
+    <dimen name="Android_Design_rhythmOneAndASixth">56dp</dimen>
+    <dimen name="Android_Design_rhythm">48dp</dimen>
+    <dimen name="Android_Design_rhythmTwoThirds">32dp</dimen>
+    <dimen name="Android_Design_rhythmHalf">24dp</dimen>
+    <dimen name="Android_Design_rhythmThird">16dp</dimen>
+    <dimen name="Android_Design_rhythmSixth">8dp</dimen>
+    <dimen name="Android_Design_rhythmTwelfth">4dp</dimen>
+    <dimen name="Android_Design_micro">2dp</dimen>
+
+    <dimen name="Design_textSizeMicro">8sp</dimen>
+    <dimen name="Design_textSizeSmall">14sp</dimen>
+    <dimen name="Design_textSizeNormal">16sp</dimen>
+    <dimen name="Design_textSizeMedium">18sp</dimen>
+    <dimen name="Design_textSizeLarge">20sp</dimen>
+    <dimen name="Design_textSizeExtraLarge">28sp</dimen>
+
+    <dimen name="BaseLayout_padding">@dimen/Android_Design_rhythmSixth</dimen>
+    <dimen name="BaseLayout_paddingTop">@dimen/Android_Design_rhythmSixth</dimen>
+    <dimen name="BaseLayout_paddingLeft">@dimen/Android_Design_rhythmThird</dimen>
+    <dimen name="BaseLayout_paddingRight">@dimen/Android_Design_rhythmThird</dimen>
+    <dimen name="BaseLayout_paddingBottom">@dimen/Android_Design_rhythmSixth</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_call_margin">20dp</dimen>
+    <dimen name="List_dividerHeight">0.5dp</dimen>
+
+
+    <dimen name="circle_button_size">@dimen/Android_Design_rhythmOneAndASixth</dimen>
+</resources>

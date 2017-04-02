@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Droid.TextAppearance.Micro" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/Design_textSizeMicro</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Small" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/Design_textSizeSmall</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/Design_textSizeNormal</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Large" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/Design_textSizeLarge</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Headline" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/Design_textSizeLarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Droid.TextAppearance.ExtraLarge" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/Design_textSizeExtraLarge</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Toolbar.Title" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/Design_white</item>
+        <item name="android:textSize">@dimen/Design_textSizeMedium</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Large.Black" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/Design_black</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Toolbar.MultiLineTitle" parent="Droid.TextAppearance.Headline">
+        <item name="android:textColor">@color/Design_white</item>
+    </style>
+
+    <style name="Droid.TextAppearance.SmallGrey" parent="Droid.TextAppearance.Small">
+        <item name="android:textColor">@color/Design_grey</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MicroRed" parent="Droid.TextAppearance.Micro">
+        <item name="android:textColor">@color/Design_red</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MicroBlack" parent="Droid.TextAppearance.Micro">
+        <item name="android:textColor">@color/Design_black</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MicroGrey" parent="Droid.TextAppearance.Micro">
+        <item name="android:textColor">@color/Design_grey</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MicroGreen" parent="Droid.TextAppearance.Micro">
+        <item name="android:textColor">@color/Design_green</item>
+    </style>
+
+    <style name="Droid.TextAppearance.SmallBlack" parent="Droid.TextAppearance.Small">
+        <item name="android:textColor">@color/Design_black</item>
+    </style>
+
+    <style name="Droid.TextAppearance.SmallGreen" parent="Droid.TextAppearance.Small">
+        <item name="android:textColor">@color/Design_green</item>
+    </style>
+
+    <style name="Droid.TextAppearance.SmallGold" parent="Droid.TextAppearance.Small">
+        <item name="android:textColor">@color/Design_gold</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MediumBlack" parent="Droid.TextAppearance.Medium">
+        <item name="android:textColor">@color/Design_black</item>
+    </style>
+
+    <style name="Droid.TextAppearance.ExtraLargeBlack" parent="Droid.TextAppearance.ExtraLarge">
+        <item name="android:textColor">@color/Design_black</item>
+    </style>
+
+    <style name="Droid.TextAppearance.ExtraLargeBlue" parent="Droid.TextAppearance.ExtraLarge">
+        <item name="android:textColor">@color/Design_deep_sky_blue</item>
+    </style>
+
+    <style name="Droid.TextAppearance.LargeBlue" parent="Droid.TextAppearance.Large">
+        <item name="android:textColor">@color/Design_deep_sky_blue</item>
+    </style>
+
+    <style name="Droid.TextAppearance.LargeBlack" parent="Droid.TextAppearance.Large">
+        <item name="android:textColor">@color/Design_black</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MediumGrey" parent="Droid.TextAppearance.Medium">
+        <item name="android:textColor">@color/Design_grey</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MediumWhite" parent="Droid.TextAppearance.Medium">
+        <item name="android:textColor">@color/Design_white</item>
+    </style>
+
+    <style name="Droid.TextAppearance.SmallWhite" parent="Droid.TextAppearance.Small">
+        <item name="android:textColor">@color/Design_white</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MediumBlue" parent="Droid.TextAppearance.Medium">
+        <item name="android:textColor">@color/Design_deep_sky_blue</item>
+    </style>
+
+    <style name="Droid.TextAppearance.SmallBlue" parent="Droid.TextAppearance.Small">
+        <item name="android:textColor">@color/Design_deep_sky_blue</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MicroBlue" parent="Droid.TextAppearance.Micro">
+        <item name="android:textColor">@color/Design_deep_sky_blue</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MediumGold" parent="Droid.TextAppearance.Medium">
+        <item name="android:textColor">@color/Design_gold</item>
+    </style>
+
+    <style name="Droid.TextAppearance.LargeWhite" parent="Droid.TextAppearance.Large">
+        <item name="android:textColor">@color/Design_white</item>
+    </style>
+
+    <style name="Droid.TextAppearance.LargeGrey" parent="Droid.TextAppearance.Large">
+        <item name="android:textColor">@color/Design_grey</item>
+    </style>
+
+    <style name="Droid.TextAppearance.LargeGold" parent="Droid.TextAppearance.Large">
+        <item name="android:textColor">@color/Design_gold</item>
+    </style>
+
+    <style name="Droid.TextAppearance.ExtraLargeGrey" parent="Droid.TextAppearance.ExtraLarge">
+        <item name="android:textColor">@color/Design_grey</item>
+    </style>
+
+    <style name="Droid.TextAppearance.ExtraLargeGreen" parent="Droid.TextAppearance.ExtraLarge">
+        <item name="android:textColor">@color/Design_green</item>
+    </style>
+
+    <style name="Droid.TextAppearance.HeadlineBlack" parent="Droid.TextAppearance.Headline">
+        <item name="android:textColor">@color/Design_black</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Form.Subheading" parent="Droid.TextAppearance.Medium">
+        <item name="android:textColor">@color/Design_grey</item>
+    </style>
+
+    <style name="Droid.TextAppearance.Form.SubSubheading" parent="Droid.TextAppearance.Small">
+        <item name="android:textColor">@color/Design_grey</item>
+    </style>
+
+    <style name="Droid.TextAppearance.DialogHeader" parent="Droid.TextAppearance.Large">
+        <item name="android:textColor">@color/Design_green</item>
+    </style>
+
+    <style name="Droid.TextAppearance.MediumGreen" parent="Droid.TextAppearance.Medium">
+        <item name="android:textColor">@color/Design_green</item>
+    </style>
+    <style name="Droid.TextAppearance.LargeGreen" parent="Droid.TextAppearance.Large">
+        <item name="android:textColor">@color/Design_green</item>
+    </style>
+
+    <style name="Droid.TextAppearance.BottomTab" parent="Droid.TextAppearance.MicroGrey">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textSize">@dimen/Design_textSizeSmall</item>
+        <item name="android:textColor">@color/Design_darkWhite</item>
+    </style>
+</resources>

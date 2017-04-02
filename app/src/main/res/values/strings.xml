@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Powerdata2Go</string>
+    <string name="update_capability">Update Capability</string>
+
+    <string name="welcome">Welcome to Twilio Client</string>
+    <string name="contact_email">info@powerdata2go.com</string>
+    <string name="contact_mail_subject">Code authentication</string>
+    <string name="send_email">Send Email</string>
+
+    <string name="client_name">Client name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="colon">" : "</string>
+    <string name="connecting">Connecting...</string>
+    <string name="calling">" is calling..."</string>
+    <string name="available_time">Available Call Minutes: %1$s</string>
+    <string name="out_of_free_time">Free minutes used up. Call minutes will be charged</string>
+    <string name="support_call">Support Call</string>
+    <string name="phone_contact">Phone Contact</string>
+    <string name="no_name">No Name</string>
+    <string name="default_no_name">"?"</string>
+    <string name="close">Close</string>
+    <string name="done">Done</string>
+    <string name="retry">Retry</string>
+
+    <!--Log-->
+    <string name="all">All</string>
+    <string name="missed">Missed</string>
+    <string name="twilio_status_busy">busy</string>
+    <string name="twilio_status_completed">completed</string>
+    <string name="twilio_status_no_answer">no-answer</string>
+    <string name="twilio_inbox_type">Inbox</string>
+    <string name="twilio_outbox_type">Outbox</string>
+    <string name="log_filter_today">Today</string>
+    <string name="log_filter_yesterday">Yesterday</string>
+    <string name="log_filter_day_before">Day before yesterday</string>
+    <string name="log_filter_other">Others</string>
+
+    <!--Setting-->
+    <string name="setting">Setting</string>
+    <string name="status">Status</string>
+    <string name="number">Number</string>
+    <string name="device_name">Device Name</string>
+    <string name="username">Username</string>
+    <string name="set">Set</string>
+    <string name="booking_history">Booking History</string>
+    <string name="end_date">End Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="county">County</string>
+    <string name="activated">Activated</string>
+    <string name="build_version">Build Version</string>
+    <string name="extend">Extend</string>
+    <string name="add_call_minutes">Add Call Minutes</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="setting_title">PowerData2Go VOICE</string>
+    <string name="chart_title">Minutes voice call is used chart</string>
+    <string name="select_destination_country">Select Your Destination Country</string>
+    <string name="select_home_country">Select Your Home Country</string>
+    <string name="select_days">How many days</string>
+    <string name="setting_announcement">"To receive calls:\n \n You can forward your number to %1$s by type this number in the %2$s \n \n  We assign a new phone number to you %3$s \n \n Call to your local number will forward to this app. %4$s \n \n The service expire on %5$s "</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="active_forward_message">To receive incoming calls, please press button to activate call forwarding</string>
+    <string name="forward_number_message">Make ALL call forward to %1$s</string>
+    <string name="outgoing_call">Outgoing Call</string>
+    <string name="new_caller_number_message">To enable caller ID display using your personal number, please press button to complete verifications</string>
+    <string name="verify">Verify</string>
+    <string name="verified">Verified</string>
+    <string name="activate">Activate</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="welcome_home">Welcome Home</string>
+    <string name="welcome_home_announcement">Please deactivate call forwarding to receive incoming call</string>
+    <string name="verification_phone_number_announcement">Our server will call your number(%1$s), please pick up the call and type this verification code \n %2$s</string>
+
+    <!--Message-->
+    <string name="invalid_device_name">Sorry, only letters (a-z), numbers (0-9), and underscores (_) are allowed.</string>
+    <string name="device_name_null">Please set device name in setting, to make call</string>
+    <string name="ready_to_call">Successful, ready to make calls</string>
+    <string name="retrieving_access_token_failed">Error retrieving access token. Unable to make calls</string>
+    <string name="retrieving_gcm_token_failed">Failed to get GCM Token. Unable to receive calls</string>
+    <string name="request_microphone_permissions">Microphone permissions needed. Please allow in your application settings.</string>
+    <string name="input_token_title">Please input your code</string>
+    <string name="checking_pbook_auth_failed">Your code is invalid or server not response, please try again</string>
+    <string name="pbook_auth_out_of_date">Your code is out of date</string>
+    <string name="no_network">No network connection, please connect to internet</string>
+    <string name="register_push_notification_failed">Register push notification failed, please try again later</string>
+    <string name="unregister_push_notification_failed">Unregister push notification failed</string>
+    <string name="pbook_auth_report">Get token from server failed!</string>
+    <string name="get_verification_code_error">Fail to get verification code, please check your number or internet</string>
+
+    <!--dial pad-->
+    <string name="number_0">0</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="abc">ABC</string>
+    <string name="def">DEF</string>
+    <string name="ghi">GHI</string>
+    <string name="jkl">JKL</string>
+    <string name="mno">MNO</string>
+    <string name="pqrs">PQRS</string>
+    <string name="tuv">TUV</string>
+    <string name="wxyz">WXYZ</string>
+    <string name="star">*</string>
+    <string name="pound">#</string>
+    <string name="add">+</string>
+
+
+    <!--Help-->
+    <string name="contact_us">Contact Us</string>
+    <string name="fullname">Full Name</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+
+    <string-array name="types">
+        <item>Client</item>
+        <item>Phone Number</item>
+    </string-array>
+
+    <string-array name="bottom_tab_arrays">
+        <item>Call</item>
+        <item>Log</item>
+        <item>Setting</item>
+        <item>Help</item>
+    </string-array>
+
+    <string-array name="setting_select_days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+</resources>

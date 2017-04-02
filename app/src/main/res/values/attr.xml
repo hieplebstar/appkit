@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleButton">
+        <attr name="childText" format="reference|string" />
+        <attr name="overlayText" format="reference|string" />
+        <attr name="imageSrc" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Design_white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Design_grey_background"
+        android:gravity="center"
+        android:padding="@dimen/Android_Design_rhythmThird"
+        android:text="@string/setting_title"
+        android:textAppearance="@style/Droid.TextAppearance.MediumGreen" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/Android_Design_rhythmThird">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/Design_grey_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Android_Design_rhythmThird"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setting"
+                        android:textAppearance="@style/Droid.TextAppearance.MediumGreen" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/client_name"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/colon"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:id="@+id/setting_client_name_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/status"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/colon"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:id="@+id/setting_status_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/number"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/colon"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:id="@+id/setting_phone_number_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/build_version"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/colon"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:id="@+id/setting_build_version_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Android_Design_rhythmThird"
+                app:cardBackgroundColor="@color/Design_grey_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Android_Design_rhythmThird"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/booking_history"
+                        android:textAppearance="@style/Droid.TextAppearance.MediumGreen" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/start_date"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/end_date"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/county"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/setting_start_date_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:id="@+id/setting_end_date_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <TextView
+                            android:id="@+id/setting_country_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Android_Design_rhythmThird"
+                app:cardBackgroundColor="@color/Design_grey_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Android_Design_rhythmThird"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/incoming_call"
+                            android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/setting_auto_forward_switch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:layout_weight="1"
+                        android:text="@string/active_forward_message"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                    <TextView
+                        android:id="@+id/setting_incoming_forward_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:layout_weight="1"
+                        android:text="@string/forward_number_message"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Android_Design_rhythmThird"
+                app:cardBackgroundColor="@color/Design_grey_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Android_Design_rhythmThird"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:layout_weight="1"
+                        android:text="@string/outgoing_call"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:layout_weight="1"
+                        android:text="@string/new_caller_number_message"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth">
+
+                        <android.support.v7.widget.AppCompatSpinner
+                            android:id="@+id/setting_caller_number_spinner"
+                            style="@style/Base.Widget.AppCompat.DropDownItem.Spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+
+                        <EditText
+                            android:id="@+id/setting_new_caller_number_edittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:inputType="numberDecimal" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/setting_verify_new_caller_number"
+                        android:layout_width="@dimen/Android_Design_rhythmDouble"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:background="@drawable/button_green_rounded_all"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/Android_Design_rhythmSixth"
+                        android:text="@string/verify"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallWhite" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Android_Design_rhythmThird"
+                app:cardBackgroundColor="@color/Design_grey_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Android_Design_rhythmThird"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/select_destination_country"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/setting_destination_country_spinner"
+                        style="@style/Base.Widget.AppCompat.DropDownItem.Spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/select_home_country"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/setting_home_country_spinner"
+                        style="@style/Base.Widget.AppCompat.DropDownItem.Spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/select_days"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallBlack" />
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/setting_days_spinner"
+                        style="@style/Base.Widget.AppCompat.DropDownItem.Spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/setting_set_country"
+                        android:layout_width="@dimen/Android_Design_rhythmDouble"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+                        android:background="@drawable/button_green_rounded_all"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/Android_Design_rhythmSixth"
+                        android:text="@string/set"
+                        android:textAppearance="@style/Droid.TextAppearance.SmallWhite" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

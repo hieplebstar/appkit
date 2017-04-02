@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/Android_Design_rhythmThird">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/input_token_title"
+        android:textAppearance="@style/Droid.TextAppearance.MediumBlue" />
+
+    <EditText
+        android:id="@+id/edittext_set_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:gravity="center"
+        android:text="@string/county"
+        android:textAppearance="@style/Droid.TextAppearance.MediumBlue" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinner_set_token_country"
+        style="@style/Base.Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth"
+        android:gravity="center"
+        android:text="@string/phone_number"
+        android:textAppearance="@style/Droid.TextAppearance.MediumBlue" />
+
+    <EditText
+        android:id="@+id/edittext_set_token_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Android_Design_rhythmSixth" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_set_token"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/Android_Design_rhythmTwoThirds"
+            android:layout_margin="@dimen/Android_Design_rhythmSixth"
+            android:layout_weight="1"
+            android:background="@drawable/button_blue_rounded_all"
+            android:gravity="center"
+            android:text="@string/set"
+            android:textColor="@color/Design_darkWhite" />
+
+        <TextView
+            android:id="@+id/textview_contact_server"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/Android_Design_rhythmTwoThirds"
+            android:layout_margin="@dimen/Android_Design_rhythmSixth"
+            android:layout_weight="1"
+            android:background="@drawable/button_blue_rounded_all"
+            android:gravity="center"
+            android:text="@string/contact_us"
+            android:textColor="@color/Design_darkWhite" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#009440</color>
+
+    <color name="Design_black">#202020</color>
+    <color name="Design_green">#009440</color>
+    <color name="Design_greenTransparent">#77319741</color>
+    <color name="Design_blue">#0072BB</color>
+    <color name="Design_deep_sky_blue">#00aad9</color>
+    <color name="Design_red">#A70E13</color>
+    <color name="Design_transparent">#00000000</color>
+    <color name="Design_white">#ffffff</color>
+    <color name="Design_darkWhite">#f3f3f3</color>
+    <color name="Design_grey">#8D8D8D</color>
+    <color name="Design_grey_divider">#EFEDED</color>
+    <color name="Design_grey_background">#f5f5f5</color>
+    <color name="Design_grey_bottombar">#949595</color>
+    <color name="Design_gold">#FFA700</color>
+    <color name="Design_dimGrey">#696969</color>
+    <color name="Design_dimGrey_75">#BF696969</color>
+    <color name="Design_black_70">#B3202020</color>
+</resources>
